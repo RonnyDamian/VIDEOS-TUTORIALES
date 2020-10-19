@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,700;0,900;1,400&display=swap');
+
+body{
+    overflow:hidden;
+    font-family:'Lato', sans-serif;
+    color:#505962
+}
+
+/*Start Navigation Section*/
+.navbar{
+    text-transform:uppercase;
+    font-weight: 700;
+    font-size: .9rem;
+    letter-spacing:.1rem;
+    background: rgba(0,0,0,0.6) !important;
+}
+.navbar-brand img{
+    height: 3rem;
+}
+.navbar-nav li{
+    padding:.7rem;
+}
+.navbar-dark .navbar-nav .nav-link{
+    color:white;
+    padding-top: .8rem;
+}
+
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: rgba(255, 81, 0, 0.96);
+}
+/*End Navigation Section*/
+
+/* Start Landing Page*/
+.home-inner{
+    background-image: url("images/._computers.png");
+}
+.caption{
+    width:100%;
+    max-width: 100%;
+    position:absolute;
+    top:38%;
+    z-index: 1;
+    color:white;
+}
+/*End Landing Page*/
+
